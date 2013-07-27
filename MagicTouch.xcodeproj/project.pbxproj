@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF5A9B1217A3987B002A54C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5A9B1117A3987B002A54C2 /* UIKit.framework */; };
+		AF5A9B1417A3987B002A54C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5A9B1317A3987B002A54C2 /* Foundation.framework */; };
+		AF5A9B1617A3987B002A54C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5A9B1517A3987B002A54C2 /* CoreGraphics.framework */; };
+		AF5A9B1C17A3987B002A54C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF5A9B1A17A3987B002A54C2 /* InfoPlist.strings */; };
+		AF5A9B1E17A3987B002A54C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5A9B1D17A3987B002A54C2 /* main.m */; };
+		AF5A9B2217A3987B002A54C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5A9B2117A3987B002A54C2 /* AppDelegate.m */; };
+		AF5A9B2417A3987B002A54C2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AF5A9B2317A3987B002A54C2 /* Default.png */; };
+		AF5A9B2617A3987B002A54C2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF5A9B2517A3987B002A54C2 /* Default@2x.png */; };
+		AF5A9B2817A3987B002A54C2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF5A9B2717A3987B002A54C2 /* Default-568h@2x.png */; };
+		AF5A9B3817A39895002A54C2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5A9B3717A39895002A54C2 /* QuartzCore.framework */; };
+		AF5A9B3A17A398B3002A54C2 /* mysprite.png in Resources */ = {isa = PBXBuildFile; fileRef = AF5A9B3917A398B3002A54C2 /* mysprite.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF5A9B0E17A3987B002A54C2 /* MagicTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5A9B1117A3987B002A54C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AF5A9B1317A3987B002A54C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AF5A9B1517A3987B002A54C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AF5A9B1917A3987B002A54C2 /* MagicTouch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MagicTouch-Info.plist"; sourceTree = "<group>"; };
+		AF5A9B1B17A3987B002A54C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AF5A9B1D17A3987B002A54C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF5A9B1F17A3987B002A54C2 /* MagicTouch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MagicTouch-Prefix.pch"; sourceTree = "<group>"; };
+		AF5A9B2017A3987B002A54C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF5A9B2117A3987B002A54C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AF5A9B2317A3987B002A54C2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AF5A9B2517A3987B002A54C2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AF5A9B2717A3987B002A54C2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AF5A9B3717A39895002A54C2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AF5A9B3917A398B3002A54C2 /* mysprite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mysprite.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF5A9B0B17A3987B002A54C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5A9B3817A39895002A54C2 /* QuartzCore.framework in Frameworks */,
+				AF5A9B1217A3987B002A54C2 /* UIKit.framework in Frameworks */,
+				AF5A9B1417A3987B002A54C2 /* Foundation.framework in Frameworks */,
+				AF5A9B1617A3987B002A54C2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF5A9B0517A3987B002A54C2 = {
+			isa = PBXGroup;
+			children = (
+				AF5A9B3717A39895002A54C2 /* QuartzCore.framework */,
+				AF5A9B1717A3987B002A54C2 /* MagicTouch */,
+				AF5A9B1017A3987B002A54C2 /* Frameworks */,
+				AF5A9B0F17A3987B002A54C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF5A9B0F17A3987B002A54C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF5A9B0E17A3987B002A54C2 /* MagicTouch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF5A9B1017A3987B002A54C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF5A9B1117A3987B002A54C2 /* UIKit.framework */,
+				AF5A9B1317A3987B002A54C2 /* Foundation.framework */,
+				AF5A9B1517A3987B002A54C2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF5A9B1717A3987B002A54C2 /* MagicTouch */ = {
+			isa = PBXGroup;
+			children = (
+				AF5A9B2017A3987B002A54C2 /* AppDelegate.h */,
+				AF5A9B2117A3987B002A54C2 /* AppDelegate.m */,
+				AF5A9B3917A398B3002A54C2 /* mysprite.png */,
+				AF5A9B1817A3987B002A54C2 /* Supporting Files */,
+			);
+			path = MagicTouch;
+			sourceTree = "<group>";
+		};
+		AF5A9B1817A3987B002A54C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF5A9B1917A3987B002A54C2 /* MagicTouch-Info.plist */,
+				AF5A9B1A17A3987B002A54C2 /* InfoPlist.strings */,
+				AF5A9B1D17A3987B002A54C2 /* main.m */,
+				AF5A9B1F17A3987B002A54C2 /* MagicTouch-Prefix.pch */,
+				AF5A9B2317A3987B002A54C2 /* Default.png */,
+				AF5A9B2517A3987B002A54C2 /* Default@2x.png */,
+				AF5A9B2717A3987B002A54C2 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF5A9B0D17A3987B002A54C2 /* MagicTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF5A9B3417A3987B002A54C2 /* Build configuration list for PBXNativeTarget "MagicTouch" */;
+			buildPhases = (
+				AF5A9B0A17A3987B002A54C2 /* Sources */,
+				AF5A9B0B17A3987B002A54C2 /* Frameworks */,
+				AF5A9B0C17A3987B002A54C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicTouch;
+			productName = MagicTouch;
+			productReference = AF5A9B0E17A3987B002A54C2 /* MagicTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF5A9B0617A3987B002A54C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Pavel Gnatyuk";
+			};
+			buildConfigurationList = AF5A9B0917A3987B002A54C2 /* Build configuration list for PBXProject "MagicTouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AF5A9B0517A3987B002A54C2;
+			productRefGroup = AF5A9B0F17A3987B002A54C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF5A9B0D17A3987B002A54C2 /* MagicTouch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF5A9B0C17A3987B002A54C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5A9B1C17A3987B002A54C2 /* InfoPlist.strings in Resources */,
+				AF5A9B2417A3987B002A54C2 /* Default.png in Resources */,
+				AF5A9B2617A3987B002A54C2 /* Default@2x.png in Resources */,
+				AF5A9B2817A3987B002A54C2 /* Default-568h@2x.png in Resources */,
+				AF5A9B3A17A398B3002A54C2 /* mysprite.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF5A9B0A17A3987B002A54C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5A9B1E17A3987B002A54C2 /* main.m in Sources */,
+				AF5A9B2217A3987B002A54C2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF5A9B1A17A3987B002A54C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF5A9B1B17A3987B002A54C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF5A9B3217A3987B002A54C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF5A9B3317A3987B002A54C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF5A9B3517A3987B002A54C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Pavel Gnatyuk (X6EDYMWD4L)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Pavel Gnatyuk (X6EDYMWD4L)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MagicTouch/MagicTouch-Prefix.pch";
+				INFOPLIST_FILE = "MagicTouch/MagicTouch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "676A813B-15FF-4728-A295-E01CB76CCBEE";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "676A813B-15FF-4728-A295-E01CB76CCBEE";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AF5A9B3617A3987B002A54C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Pavel Gnatyuk (X6EDYMWD4L)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Pavel Gnatyuk (X6EDYMWD4L)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MagicTouch/MagicTouch-Prefix.pch";
+				INFOPLIST_FILE = "MagicTouch/MagicTouch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "676A813B-15FF-4728-A295-E01CB76CCBEE";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "676A813B-15FF-4728-A295-E01CB76CCBEE";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF5A9B0917A3987B002A54C2 /* Build configuration list for PBXProject "MagicTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5A9B3217A3987B002A54C2 /* Debug */,
+				AF5A9B3317A3987B002A54C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF5A9B3417A3987B002A54C2 /* Build configuration list for PBXNativeTarget "MagicTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5A9B3517A3987B002A54C2 /* Debug */,
+				AF5A9B3617A3987B002A54C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF5A9B0617A3987B002A54C2 /* Project object */;
+}
